@@ -46,4 +46,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen(5000, () => console.log('AI server started on https://openai-codex-server-uzned.ondigitalocean.app'))
+app.listen(5000, () => console.log('AI server started on https://openai-codex-phi.vercel.app'))
