@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://openai-codex-server-uzned.ondigitalocean.app', {
+    const response = await fetch('https://openai-codex-phi.vercel.app', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
